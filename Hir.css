@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: rgb(2, 2, 117);
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+}
+
+.img{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 25px; 
+
+}
+
+
+p:nth-child(2) {
+    color: black;
+}
+
+p:nth-child(3) {
+    background-color: rgb(210, 81, 126);
+}
+
+p:nth-child(5) {
+    background-color: rgb(210, 81, 126);
+}
+/*I had to add to the background colouring of all the odd paragraphs seperately as it was selecting the fig tag as a paragraph and select it as an odd number misscolouring the further paragraphs*/
+p:nth-child(4) {
+    color: rgb(251, 0, 88);
+}
+
+
+figure > img{
+    width: 300px;
+    margin: 0 1em;
+    float: left;
+    margin-right: 10px;
+
+}
